@@ -81,6 +81,9 @@ const CreateWorkflowDialog = ({ triggerText }: { triggerText?: string }) => {
                   </FormItem>
                 )}
               />
+              <Button type="submit" className="w-full">
+                Proceed
+              </Button>
             </form>
           </Form>
         </div>
